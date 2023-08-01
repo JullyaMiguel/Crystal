@@ -1,0 +1,160 @@
+/* CABEÇALHO */
+.header{
+    position: relative;
+    width: 100vw;
+    height: 91px;
+    background-color: #008374;
+    display: flex; 
+    align-items: center;
+
+}
+.logo{
+    margin-left: 150px;
+    margin-right: 720px;
+    color: #ffff;
+}
+
+.menu{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #ffff;
+}
+
+*{
+    padding: 0;
+    margin: 0%;
+    border: 0;
+}
+   /* FIM CABEÇALHO */
+    /* MOÇA */
+.fundoclaro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #23A092;
+    margin-top: 50px;
+    height: 566px;
+    top: 91px;
+    margin-top: -10px;
+}
+
+.p {
+    color: white;
+    font-size: 30px;
+
+}
+
+.textos {
+    color: #ffff;
+    width: 700px;
+    margin-left: 150px;
+    font-size: 23px;
+}
+   /* FIM MOÇA */
+   /* QUADRADOS */
+.quadrado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: normal;
+    margin-top: -95px;
+   
+}
+.item{
+    border: 2px solid black;
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    margin: 15px 30px;
+    padding: 15px;
+    background-color: #ffff;
+}
+  /* FIM QUADRADOS */
+   /* ESCRITA */
+.planos{
+    margin-left: 160px;
+    font-size: 35px;
+    margin-top:60px ;
+}
+.lorem{
+    margin-left: 160px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+  /* FIM ESCRITA */
+    /* PLANOS */
+.tudo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 150px;
+}
+.conteudo{
+    background-color: #edecec;
+    height: 450px;
+    width: 380px;
+    font-size: 20px;
+}
+.conteudo2{
+    background-color: #edecec;
+    height: 450px;
+    width: 380px;
+    font-size: 20px;
+}
+.cinza{
+    color: #959292;
+}
+.preco{
+    font-size: 20px;
+}
+.linhalaranja{
+    background-color:#F6A256 ;
+    padding: 15px;
+    margin: 0;
+    height: 10px;
+}
+.linhalaranja2{
+    background-color:#FF912D;
+    padding: 15px;
+    margin: 0;
+    height: 10px;
+}
+.header2{
+    height: 150px;
+    background-color: #008374;
+    font-size: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+.submit{
+    margin: 100px;
+}
+  /* FIM PLANOS */
+   /* RODAPÉ */
+#footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #008374;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+    color: #ffff;
+    
+}
+.t-e{
+    font-size: 20px;
+}
+button{
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+}
+input{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+}
+  /* FIM RODAPÉ */
